@@ -1,14 +1,19 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "users": [
+    { "id": 1, "name": "محمد عبدالخالق","balance":5000 },
+    { "id": 2, "name": "سعد البراهيم","balance":8000  },
+    { "id": 3, "name": "محمد ابوعنين","balance":700  }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+   "transactions": [
+    { "id": 1,"type":1, "amount": 10000, "to": "تسوق" },
+    { "id": 2,"type":1, "amount": 6744, "to": "تسوق" },
+    { "id": 3,"type":1, "amount": 1005600, "to": "تسوق" },
+    { "id": 4,"type":1, "amount": 837, "to": "تسوق" },
+    { "id": 5,"type":1, "amount": 9287, "to": "تسوق" },
+    { "id": 6,"type":1, "amount": 12, "to": "تسوق" },
+    { "id": 7,"type":1, "amount": 284, "to": "تسوق" }
   ],
   "profile": {
-    "name": "typicode"
+    "name": "Hassad"
   }
 }
